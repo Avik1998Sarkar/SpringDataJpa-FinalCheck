@@ -24,7 +24,7 @@ public class MovieServiceTest {
 
 	private static void testGetMovie() {
 		LOGGER.info("start");
-		LOGGER.debug("Items{}", movieService.getMovie(2));
+		LOGGER.debug("Items{}", movieService.getMovieById(2));
 		LOGGER.info("end");
 	}
 
