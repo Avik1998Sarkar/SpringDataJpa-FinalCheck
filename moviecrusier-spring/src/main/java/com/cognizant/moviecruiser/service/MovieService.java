@@ -32,7 +32,7 @@ public class MovieService{
 	}
 
 	@Transactional
-	public Movie getMovie(long movieId) {
+	public Movie getMovieById(long movieId) {
 		return movieRepository.getOne(movieId);
 	}
 	
